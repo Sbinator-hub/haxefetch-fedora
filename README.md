@@ -8,7 +8,8 @@
 2. Refresh Fedora repos
 - `dnf refresh`
 
-3. `dnf install haxefetch`
+3. Install Haxefetch 
+- `dnf install haxefetch`
 
 ---
 
