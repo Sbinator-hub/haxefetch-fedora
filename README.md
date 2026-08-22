@@ -10,6 +10,8 @@
 
 3. `dnf install haxefetch`
 
+---
+
 ### Wanna support?
 Go here
 - https://copr.fedorainfracloud.org/coprs/stefan2008/Haxefetch/
