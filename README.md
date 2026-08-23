@@ -6,7 +6,7 @@
 - `dnf copr enable stefan2008/Haxefetch`
 
 2. Refresh Fedora repos
-- `dnf refresh`
+- `dnf update`
 
 3. Install Haxefetch 
 - `dnf install haxefetch`
