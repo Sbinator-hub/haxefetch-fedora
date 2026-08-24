@@ -4,7 +4,9 @@ Release:        1%{?dist}
 Summary:        A fetch program written in Haxe
 
 License:        MIT
+URL:            https://github.com/Sbinator-hub/Haxefetch
 Source0:        %{url}/releases/download/%{version}/%{name}-%{version}.tar.gz
+
 ExclusiveArch:  x86_64
 
 %define debug_package %{nil}
@@ -13,13 +15,9 @@ ExclusiveArch:  x86_64
 A fetch program written in Haxe
 
 %prep
-
-%setup -q -c -T
-
-cp %{SOURCE0} .
+%autosetup -c
 
 %build
-# No compilation required
 
 %install
 rm -rf %{buildroot}
@@ -30,5 +28,5 @@ install -m 0755 haxefetch %{buildroot}%{_bindir}/haxefetch
 %{_bindir}/haxefetch
 
 %changelog
-* Sun Aug 24 2026 Stefan <stefan@localhost> - 1.0.0-1
+* Mon Aug 24 2026 Stefan <stefan@localhost> - 1.0.0-1
 - Initial release of Haxefetch
