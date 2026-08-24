@@ -1,6 +1,6 @@
 Name:           haxefetch
 Version:        1.0.0
-Release:        4%{?dist}
+Release:        5%{?dist}
 Summary:        A fetch program written in Haxe
 
 License:        MIT
