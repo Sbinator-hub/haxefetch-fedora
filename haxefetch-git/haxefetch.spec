@@ -1,10 +1,10 @@
 Name:           haxefetch
 Version:        1.0.0
-Release:        1%{?dist}
+Release:        5%{?dist}
 Summary:        A fetch program written in Haxe
 
 License:        MIT
-Source0:        %{url}/releases/download/%{version}/%{name}-%{version}.tar.gz
+Source0:        https://raw.githubusercontent.com/Sbinator-hub/Haxefetch/main/binary/haxefetch
 
 %define debug_package %{nil}
 
