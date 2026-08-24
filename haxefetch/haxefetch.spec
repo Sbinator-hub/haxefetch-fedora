@@ -5,6 +5,7 @@ Summary:        A fetch program written in Haxe
 
 License:        MIT
 Source0:        %{url}/releases/download/%{version}/%{name}-%{version}.tar.gz
+ExclusiveArch:  x86_64
 
 %define debug_package %{nil}
 
@@ -22,12 +23,12 @@ cp %{SOURCE0} .
 
 %install
 rm -rf %{buildroot}
-mkdir -p %{buildroot}%{_bindir}
+install -d %{buildroot}%{_bindir}
 install -m 0755 haxefetch %{buildroot}%{_bindir}/haxefetch
 
 %files
 %{_bindir}/haxefetch
 
 %changelog
-* Sun Aug 23 2026 Stefan <stefan@localhost> - 1.0.0-1
-- Initial pre-built binary package
+* Sun Aug 24 2026 Stefan <stefan@localhost> - 1.0.0-1
+- Initial release of Haxefetch
