@@ -1,6 +1,6 @@
-Name:           haxefetch
-Version:        1.0.0
-Release:        5%{?dist}
+Name:           haxefetch-git
+Version:        1.1.0
+Release:        1%{?dist}
 Summary:        A fetch program written in Haxe
 
 License:        MIT
@@ -29,5 +29,5 @@ install -m 0755 haxefetch %{buildroot}%{_bindir}/haxefetch
 %{_bindir}/haxefetch
 
 %changelog
-* Sun Aug 23 2026 Stefan <stefan@localhost> - 1.0.0-1
-- Initial pre-built binary package
+* Mond Set 14 2026 Stefan <stefanbeta2008@gmail.com> - 1.1.0-1
+- Added platform checker command
