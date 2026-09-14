@@ -16,5 +16,6 @@
 ### Wanna support?
 Go here
 - https://copr.fedorainfracloud.org/coprs/stefan2008/Haxefetch/
+- https://copr.fedorainfracloud.org/coprs/stefan2008/Haxef2etch-git/
 
 > **Note:** Due to how Fedora handles metadata caches, you have to wait for bit fully sync new package version and vel in order to install different, but if you want to get new package with new vel number, you can force dnf to refresh new metadata cache `dnf upgrade --refresh haxefetch` 
