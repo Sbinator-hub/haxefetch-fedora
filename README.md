@@ -3,13 +3,13 @@
 ## How to install this?
 
 1. Enable Copr repo
-- `dnf copr enable stefan2008/Haxefetch`
+- `dnf copr enable stefan2008/Haxefetch` (git `dnf copr enable stefan2008/Haxefetch-git`)
 
 2. Refresh Fedora repos
 - `dnf update`
 
 3. Install Haxefetch 
-- `dnf install haxefetch`
+- `dnf install haxefetch` (git `dnf install haxefetch-git`)
 
 ---
 
